@@ -17,7 +17,7 @@
             </e>
             <e p="MeteorLogic" t="Include">
               <e p="Meteor.cs" t="Include" />
-              <e p="MeteorLandPosition.cs" t="Include" />
+              <e p="MeteorLandPoint.cs" t="Include" />
               <e p="MeteorManager.cs" t="Include" />
             </e>
             <e p="PlayerLogic" t="Include">

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace _Scripts.GameLogic.MeteorLogic
 {
-    public class MeteorLandPosition : MonoBehaviour
+    public class MeteorLandPoint : MonoBehaviour
     {
         [SerializeField] private SpriteRenderer sprite;
 

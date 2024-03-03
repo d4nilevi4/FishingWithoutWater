@@ -5,6 +5,7 @@ namespace _Scripts.GameLogic.PlayerLogic
     public class PlayerBrain : MonoBehaviour
     {
         [SerializeField] private PlayerMovement movement;
+        [SerializeField] private PlayerAnimator animator;
 
         [SerializeField] private float playerRadius;
 
@@ -17,6 +18,7 @@ namespace _Scripts.GameLogic.PlayerLogic
             _input = new PlayerInputActions();
             
             movement.Construct(this, _input);
+            animator.Construct(_input);
         }
 
         private void OnEnable() => _input.Enable();

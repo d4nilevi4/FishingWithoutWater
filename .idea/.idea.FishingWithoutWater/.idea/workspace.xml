@@ -20,13 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f04fb97-9b72-4309-8a94-ecc5101f1cf3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FishingWithoutWater/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FishingWithoutWater/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FishingWithoutWater/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FishingWithoutWater/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sptrites/Player/char_back.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sptrites/Player/char_back.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sptrites/Player/char_front.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sptrites/Player/char_front.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sptrites/Player/char_left.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sptrites/Player/char_left.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sptrites/Surface.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sptrites/Surface.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sptrites/hole.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sptrites/hole.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sptrites/meteor_circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sptrites/meteor_circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/radar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/radar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/radar_broken line.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/radar_broken line.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Meteors/Meteor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meteors/Meteor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meteors/MeteorLandPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meteors/MeteorLandPoint.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/Meteor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/Meteor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorLandPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorLandPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorLandPosition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorLandPoint.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorLandPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorLandPoint.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/PlayerLogic/PlayerBrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/GameLogic/PlayerLogic/PlayerBrain.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +50,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/GameLogic/Bounds/MapBoundsDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Settings/InputSettings/PlayerInputActions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FCC0BBF6-BF4E-430C-91D4-AA05736FC5C6/6f/251f7abc/ShortcutExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,13 +62,14 @@
         <option value="$PROJECT_DIR$/Assets/MapBoundsDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MapBoundsDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/Bounds/MapBounds.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/PlayerLogic/PlayerBrain.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/PlayerLogic/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/DrawHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorLandPosition.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/Meteor.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorLandPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/MeteorLandPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/MeteorLogic/Meteor.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/PlayerLogic/PlayerBrain.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/GameLogic/PlayerLogic/PlayerAnimator.cs" />
       </list>
     </option>
   </component>
@@ -104,7 +117,7 @@
       <updated>1709392387927</updated>
       <workItem from="1709392464654" duration="620000" />
       <workItem from="1709393465259" duration="6842000" />
-      <workItem from="1709459346611" duration="4539000" />
+      <workItem from="1709459346611" duration="8516000" />
     </task>
     <servers />
   </component>
@@ -129,9 +142,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1709463811928">
+    <state x="39" y="170" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1709465172472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1709463811928" />
+    <state x="39" y="170" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1709465172472" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1709468900682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1709468900682" />
   </component>
 </project>

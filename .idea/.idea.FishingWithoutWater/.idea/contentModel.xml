@@ -21,12 +21,16 @@
               <e p="MeteorManager.cs" t="Include" />
             </e>
             <e p="PlayerLogic" t="Include">
+              <e p="PlayerAnimator.cs" t="Include" />
               <e p="PlayerBrain.cs" t="Include" />
               <e p="PlayerMovement.cs" t="Include" />
             </e>
           </e>
         </e>
         <e p="Art" t="Include">
+          <e p="Animations" t="Include">
+            <e p="Player" t="Include" />
+          </e>
           <e p="Materials" t="Include" />
           <e p="Sptrites" t="Include">
             <e p="Player" t="Include" />

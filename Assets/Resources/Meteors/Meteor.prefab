@@ -132,3 +132,4 @@ MonoBehaviour:
   damage: 1
   meteorRadius: 0.34
   speed: 3
+  startWaitTime: 2

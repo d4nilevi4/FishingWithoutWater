@@ -19,7 +19,7 @@ namespace _Scripts.GameLogic.MeteorLogic
         private float _timer;
         private bool _startedSpawn = false;
         private Vector2 _spawnOffset;
-        private Dictionary<Meteor, MeteorLandPoint> _completeMeteor;
+        private Dictionary<Meteor, MeteorLandPoint> _completeMeteor = new Dictionary<Meteor, MeteorLandPoint>();
         
 
         private Meteor MeteorPrefab => _meteorPrefab ??= Resources.Load<Meteor>(METEOR_PREFAB_PATH);
@@ -53,6 +53,27 @@ namespace _Scripts.GameLogic.MeteorLogic
             var meteorLandPosition = GetMeteorLandPosition();
             
             var meteor = SpawnMeteor(meteorLandPosition);
+            var meteorLandPoint = SpawnMeteorLandPoint(meteor, meteorLandPosition);
+
+            meteor.EventLand += OnMeteorLand;
+            
+            _completeMeteor.Add(meteor, meteorLandPoint);
+        }
+
+        private MeteorLandPoint SpawnMeteorLandPoint(Meteor meteor, Vector3 meteorLandPosition)
+        {
+            var meteorLandPoint = Instantiate(MeteorLandPointPrefab, transform);
+            meteorLandPoint.transform.localPosition = meteorLandPosition;
+            meteorLandPoint.Construct(meteor);
+
+            return meteorLandPoint;
+        }
+
+        private void OnMeteorLand(Meteor meteor)
+        {
+            meteor.EventLand -= OnMeteorLand;
+            
+            _completeMeteor.Remove(meteor);
         }
 
         private Meteor SpawnMeteor(Vector3 meteorLandPosition)
